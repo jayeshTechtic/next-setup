@@ -31,7 +31,7 @@
 export default function verifyAuth(token: string) {
   console.log("here------------------------------------", token);
   // const { push } = useRouter();
-  const isLoggedIn = false;
+  const isLoggedIn = true;
 
   if (!isLoggedIn) {
     console.log("here-----------------------------------37");
